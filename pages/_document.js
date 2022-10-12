@@ -39,7 +39,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --><noscript>',
+                "</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<!-- Google Tag Manager -->\n<script>\n    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-W5TLPCK');\n</script>\n<!-- End Google Tag Manager --><noscript>",
             }}
           ></noscript>
         </Head>
@@ -49,7 +49,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<!-- Your body code here -->\n<!-- <script type=\"text/javascript\"> ... </script> --> \n    \n<script data-section-id='header' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+                '<!-- Your body code here -->\n<!-- <script type="text/javascript"> ... </script> --> \n    \n<script data-section-id=\'header\' src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5TLPCK" height="0" width="0"\n        style="display:none;visibility:hidden"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->',
             }}
           ></div>
         </body>
