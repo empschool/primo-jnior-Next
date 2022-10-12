@@ -70,7 +70,7 @@ const Home = (props) => {
             box-shadow: 5px 5px 10px 0px #d4d4d4;
             min-height: 100vh;
             align-items: flex-start;
-            border-color: var(--dl-color-gray-black);
+            border-color: #ffffff;
             border-width: 1px;
             flex-direction: column;
             justify-content: flex-start;
