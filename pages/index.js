@@ -39,16 +39,26 @@ const Home = (props) => {
           <span className="home-text1">Seja uma pessoa ilimitada</span>
         </div>
         <div className="home-container5">
-          <img
-            alt="image"
-            src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
-            className="home-image2"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
-            className="home-image3"
-          />
+          <a
+            href="https://stories.nws.ai/1288514547/this-is-your-first-story/"
+            className="home-link"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
+              className="home-image2"
+            />
+          </a>
+          <a
+            href="https://stories.nws.ai/1288514547/this-is-your-first-story/"
+            className="home-link1"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
+              className="home-image3"
+            />
+          </a>
           <img
             alt="image"
             src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
@@ -143,17 +153,25 @@ const Home = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
+          .home-link {
+            display: contents;
+          }
           .home-image2 {
             width: var(--dl-size-size-medium);
             object-fit: cover;
             margin-left: 3px;
             margin-right: 3px;
+            text-decoration: none;
+          }
+          .home-link1 {
+            display: contents;
           }
           .home-image3 {
             width: var(--dl-size-size-medium);
             object-fit: cover;
             margin-left: 3px;
             margin-right: 3px;
+            text-decoration: none;
           }
           .home-image4 {
             width: var(--dl-size-size-medium);
