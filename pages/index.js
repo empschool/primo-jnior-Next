@@ -38,7 +38,7 @@ const Home = (props) => {
         <div className="home-container4">
           <span className="home-text1">Seja uma pessoa ilimitada</span>
         </div>
-        <div>
+        <div className="home-html-node">
           <span
             dangerouslySetInnerHTML={{
               __html:
@@ -122,6 +122,10 @@ const Home = (props) => {
           }
           .home-text1 {
             font-size: 28px;
+          }
+          .home-html-node {
+            width: 100%;
+            height: 100%;
           }
           .home-container5 {
             flex: 0 0 auto;
