@@ -20,8 +20,6 @@ const Home = (props) => {
         <div className="home-container1">
           <a
             href="https://stories.storifyme.com/stories/g-francisco-junior-49065/novidades"
-            target="_blank"
-            rel="noreferrer noopener"
             className="home-link"
           >
             <img
@@ -53,7 +51,6 @@ const Home = (props) => {
             }}
           />
         </div>
-        <div className="home-container5"></div>
       </div>
       <style jsx>
         {`
@@ -137,18 +134,6 @@ const Home = (props) => {
           .home-html-node {
             width: 100%;
             height: 100%;
-          }
-          .home-container5 {
-            flex: 0 0 auto;
-            width: 100%;
-            border: 2px dashed rgba(120, 120, 120, 0.4);
-            height: 100px;
-            display: flex;
-            position: relative;
-            margin-top: 20px;
-            align-items: center;
-            margin-bottom: 20px;
-            justify-content: center;
           }
           @media (max-width: 479px) {
             .home-image {
