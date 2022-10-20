@@ -38,34 +38,15 @@ const Home = (props) => {
         <div className="home-container4">
           <span className="home-text1">Seja uma pessoa ilimitada</span>
         </div>
-        <div className="home-container5">
-          <a
-            href="https://stories.nws.ai/1288514547/this-is-your-first-story/"
-            className="home-link"
-          >
-            <img
-              alt="image"
-              src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
-              className="home-image2"
-            />
-          </a>
-          <a
-            href="https://stories.nws.ai/1288514547/this-is-your-first-story/"
-            className="home-link1"
-          >
-            <img
-              alt="image"
-              src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
-              className="home-image3"
-            />
-          </a>
-          <img
-            alt="image"
-            src="/playground_assets/img_20220824_110123%20%5B2%5D1-200w.png"
-            className="home-image4"
+        <div>
+          <span
+            dangerouslySetInnerHTML={{
+              __html:
+                '<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-49065/widget/custom/6949">\r\n</storifyme-collection>',
+            }}
           />
         </div>
-        <div className="home-container6"></div>
+        <div className="home-container5"></div>
       </div>
       <style jsx>
         {`
@@ -143,39 +124,6 @@ const Home = (props) => {
             font-size: 28px;
           }
           .home-container5 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-          }
-          .home-link {
-            display: contents;
-          }
-          .home-image2 {
-            width: var(--dl-size-size-medium);
-            object-fit: cover;
-            margin-left: 3px;
-            margin-right: 3px;
-            text-decoration: none;
-          }
-          .home-link1 {
-            display: contents;
-          }
-          .home-image3 {
-            width: var(--dl-size-size-medium);
-            object-fit: cover;
-            margin-left: 3px;
-            margin-right: 3px;
-            text-decoration: none;
-          }
-          .home-image4 {
-            width: var(--dl-size-size-medium);
-            object-fit: cover;
-            margin-left: 3px;
-            margin-right: 3px;
-          }
-          .home-container6 {
             flex: 0 0 auto;
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
