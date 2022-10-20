@@ -18,11 +18,18 @@ const Home = (props) => {
           />
         </Head>
         <div className="home-container1">
-          <img
-            alt="image"
-            src="/playground_assets/img_20220824_110123%20%5B1%5D-300h.png"
-            className="home-image"
-          />
+          <a
+            href="https://stories.storifyme.com/stories/g-francisco-junior-49065/novidades"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="home-link"
+          >
+            <img
+              alt="image"
+              src="/playground_assets/img_20220824_110123%20%5B1%5D-300h.png"
+              className="home-image"
+            />
+          </a>
         </div>
         <div className="home-container2">
           <span className="home-text">@oprimojunior</span>
@@ -72,11 +79,15 @@ const Home = (props) => {
             margin-bottom: 10px;
             justify-content: center;
           }
+          .home-link {
+            display: contents;
+          }
           .home-image {
             width: var(--dl-size-size-xlarge);
             margin-top: 10px;
             object-fit: cover;
             margin-bottom: 10px;
+            text-decoration: none;
           }
           .home-container2 {
             flex: 0 0 auto;
