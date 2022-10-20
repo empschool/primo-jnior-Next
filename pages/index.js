@@ -66,10 +66,6 @@ const Home = (props) => {
           />
         </div>
         <div className="home-container6"></div>
-        <iframe
-          src="https://widget.tagembed.com/68443?view"
-          className="home-iframe"
-        ></iframe>
       </div>
       <style jsx>
         {`
@@ -190,11 +186,6 @@ const Home = (props) => {
             align-items: center;
             margin-bottom: 20px;
             justify-content: center;
-          }
-          .home-iframe {
-            width: 100%;
-            height: var(--dl-size-size-maxwidth);
-            align-self: center;
           }
           @media (max-width: 479px) {
             .home-image {
